@@ -13,3 +13,6 @@ Items that have no priority will stay unprioritized.
 `t all_repri 2` shifts all prioritzied items up two levels.
 
 `t all_repri -1` shifts all prioritized items down one level.
+
+## Requirements
+`all_repri` is written using python3
