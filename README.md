@@ -1,11 +1,14 @@
 # all_repri
 This extension is meant to take all items in a todo.txt file that have a priority level
 and reprioritize them all at once. Default is to move everything up one level, but 
-user can specify number of levels and whether shift is up or down in priority.
+function takes argument to specify number of levels and whether shift is up or down in priority.
+
+To move a function down in priority, simply use a negative integer.
 
 If items are already prioritized A, they will maintain the A priority status if 
 shift is upward. If items are already prioritized Z, they will maintain Z priority
-status if shift is downward.
+status if shift is downward. Items cannot be prioritized beyond these bounds (i.e.
+a 2 level shift for a (B) priority item will only change it one level to (A) priority.
 
 Items that have no priority will stay unprioritized.
 
@@ -14,5 +17,8 @@ Items that have no priority will stay unprioritized.
 
 `t all_repri -1` shifts all prioritized items down one level.
 
-## Requirements
+## Other Notes
 `all_repri` is written using python3
+
+Comments and PRs welcome, but this is a low priority task and I cannot promise to
+fix any bugs.
