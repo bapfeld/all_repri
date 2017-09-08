@@ -21,7 +21,7 @@ Clone this repo into your .todo.actions.d directory
 
 Make the file executable with
 
-`chmod +x all_repri'
+`chmod +x all_repri`
 
 ## Usage
 `t all_repri 2` shifts all prioritzied items up two levels.
