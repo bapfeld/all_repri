@@ -17,11 +17,11 @@ Items that have no priority will stay unprioritized.
 ## Installation
 Clone this repo into your .todo.actions.d directory
 
-`git clone https://github.com/bapfeld/all_repri'
+`git clone https://github.com/bapfeld/all_repri`
 
 Make the file executable with
 
-`chmod +x all_repri'
+`chmod +x all_repri`
 
 ## Usage
 `t all_repri 2` shifts all prioritzied items up two levels.
