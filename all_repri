@@ -15,5 +15,5 @@ shift
 }
 
 [ "$action" = "all_repri" ] && {
-     python3 ${TODO_ACTIONS_DIR}/all_repri.py "$TODO_DIR" $flag
+    python3 $(dirname $(readlink -f "$0"))/all_repri.py "$TODO_DIR" $flag
 }
