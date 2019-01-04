@@ -23,7 +23,7 @@ If you prefer to clone it somewhere else, create an symbolic link in your
 .todop.actions.d directory to the all_repri binary. 
 
 ## Usage
-`t all_repri 2` shifts all prioritzied items up two levels.
+`t all_repri 2` shifts all prioritized items up two levels.
 
 `t all_repri -1` shifts all prioritized items down one level.
 
