@@ -19,12 +19,13 @@ Clone this repo into your .todo.actions.d directory
 
 `git clone https://github.com/bapfeld/all_repri`
 
-Make the file executable with
-
-`chmod +x all_repri`
+Alternatively clone it somewhere else and create an symbolic link in your
+.todo.actions.d directory to the all_repri binary. If you prefer to type e.g.
+`t repri` or `t rp` instead of `t all_repri`, just choose e.g. `repri` / `rp`
+as the file name of the symbolic link.
 
 ## Usage
-`t all_repri 2` shifts all prioritzied items up two levels.
+`t all_repri 2` shifts all prioritized items up two levels.
 
 `t all_repri -1` shifts all prioritized items down one level.
 
