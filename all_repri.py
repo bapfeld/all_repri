@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 all_repri.py
 Created by Brendan Apfeld on 2017-06-23.
